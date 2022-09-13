@@ -1,0 +1,66 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//선언하기
+		//홀수 지정 짝수 지정  관련된 문제 내가 만들어보기
+		//for문 하나만 가지고 1~100까지 숫자의 짝수의 합과홀수의 합을 구하여
+//		int  sum1= 0;
+//		int  sum2= 0;
+//		
+		Scanner scanner= new Scanner(System.in);
+//      for(int i= 1;  i<=100;  i++) {
+//    	    
+//    	  if(i % 2 == 1) {
+//    		sum1=sum1+i;
+//    	}else {
+//    		sum2=sum2+i;    		
+//    		
+//    	}
+//      }
+//        
+//    	  
+//    	  System.out.println(sum1);
+//    	  System.out.println(sum2);
+//      
+//시작 숫자를 입력
+//끝  숫자를 입력
+//		>>짝수의합 입니다 
+//		>>홀수의합 입니다 
+//		>>전체 평균은 입니다. 
+      
+		
+		//선언
+	     int num1 = 0;
+	     int num2 = 0;
+	     int sum1 = 0;
+	     int sum2 = 0;
+	     double avg =0;
+	    //숫자 받기
+	     //짝수인경우
+	     System.out.println("시작 숫자를 입력하세요.");
+	     num1 = scanner.nextInt();
+	     //홀수인 경우	     
+	     System.out.println("끝 숫자를 입력하세요.");
+	     num2 = scanner.nextInt();
+	     for(int i=num1; i<=num2; i++) {
+	    	 if (i % 2 ==1) {
+	    		 sum1=sum1+i;
+	    	 }else {
+	    		 sum2=sum2+i;
+	    	 }
+	         
+	     }
+	     //짝수
+	     System.out.println(sum2);
+	     //홀수
+	     System.out.println(sum1);
+	     //평균
+	     System.out.println((sum1+sum2)/(num2-num1+1.0));
+	     
+	}
+
+}

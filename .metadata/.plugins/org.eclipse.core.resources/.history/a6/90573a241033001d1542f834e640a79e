@@ -1,0 +1,63 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class ddddddd23 {
+
+	public static void main(String[] args) {
+		//선언하기
+		Scanner scanner= new Scanner(System.In);
+		int score =0;
+		String grades = "";
+		
+        System.out.println("점수를 입력하세요.");
+         score = scanner.nextInt();
+         if (score < 0 || score >100) {
+        	 System.out.println("잘못된 점수입니다.");
+        	
+         }else {
+        	 switch (score/10) {
+        	 
+        	 case 10: case 9 :
+        		 System.out.println("당신의 학점은 A입니다.");
+        	     break;
+        	 case  8 :
+        		 System.out.println("당신의 학점은  B입니다.");
+        		 break;
+        	 
+        	 case  7 :
+        		 System.out.println("당신의 학점은  C입니다.");
+        		 break;
+        	 
+        	 case  6 :
+        		 System.out.println("당신의 학점은  D입니다.");
+        		 break;
+        	 default  :
+        		 System.out.println("당신의 학점은  F입니다.");
+        		 break;
+        	 
+        	 }
+         }
+        	 
+//         if   (score>=90) {
+//        	 System.out.println("당신의 학점은 A입니다.");
+//        	 
+//         }else if (score>=80) {
+//        		 System.out.println("당신의 학점은 B입니다.");
+//         
+//         }else if (score>=70) {
+//        	  System.out.println("당신의 학점은 C입니다.");
+//         }else if (score>=60) {
+//        	 System.out.println("당신의 학점은 D입니다.");
+//        	 
+//         }else if (score>=59) {
+//        	 System.out.println("당신의 학점은 F입니다.");
+//         }
+//             		 
+         
+        
+       
+	    
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//선언하기
+		//홀수 지정 짝수 지정  관련된 문제 내가 만들어보기
+		int  sum1= 0;
+		int  sum2= 0;
+		
+		Scanner scanner= new Scanner(System.in);
+      for(int i= 1;  i<=100;  i++) {
+    	    
+    	  if(i % 2 == 1) {
+    		sum1=sum1+i;
+    	}else {
+    		sum2=sum2+i;    		
+    		
+    	}
+      }
+        
+    	  
+    	  System.out.println(sum1);
+    	  System.out.println(sum2);
+      
+      
+      
+	}
+
+}

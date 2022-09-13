@@ -1,0 +1,42 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 덧셈
+	    System.out.println(2 + 3);
+		// 뺼셈
+	    System.out.println(2 - 3);
+		// 곱셈
+	    System.out.println(2 * 3);
+		// 나눗셈
+	    System.out.println(2.0 / 3);
+       
+	    // ㅡㅡㅡㅡ 변수 ㅡㅡㅡㅡㅡ
+	    // unm1이라는 변수에 date 10을 할당한다.
+	   
+	    int num1 = 10; 
+	    int num2 = 20;
+	    int addition = num1 + num2;
+	    int subtraction = num1 - num2;
+	    int Multiplication = num1 * num2;
+	    int division = num1 / num2;
+	 
+	   
+	    //덧셈
+	    System.out.println(num1 + "+" + num2 + "=" + addition);
+	    //뺄셈
+	    System.out.println(num1 + "-" + num2 + "=" + subtraction);
+	    //곱셈
+	    System.out.println(num1 + "-" + num2 + "=" + Multiplication);
+	    //나눗셈
+	    System.out.println(num1 + "-" + num2 + "=" + division);
+	    // num2 + num 2를 출력해보기
+	    // num2 1 num 2를 출력해보기
+	    // num2 * num 2를 출력해보기
+	    // num2 / num 2를 출력해보기
+//	    num1 = 100; 
+//	    System.out.println(num1);
+	}
+
+}
