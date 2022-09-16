@@ -14,8 +14,12 @@ public class Main {
 	      tot = tot + i ;
 	      
 	   }
+	   tot = 0;
+	   for(i =1; i <= 10; i++) {
+         tot +=1;	   
+	   }
 	   
-	    System.out.println("1부터"+--i +"까지의 합은"+tot);
+	    System.out.println("1부터"+ --i +"까지의 합은"+tot);
 	    
 	
 	

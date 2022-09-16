@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        // 구구단 2단 출력
+        // 구구단  출력
 		
 		//
 //		for(int j=2; j<=9; j++) {//단 
@@ -18,10 +18,11 @@ public class main {
 		 //System.out.print("\t"+ j + "단"+ "\t");
 			for(int i=2; i<=9; i++) {
 			 
-				if(j%2==0) {
+				if(j%2==0 || i%2==0) {
 					System.out.print(i + " X " + j + " = " + (j*i) + "\t");
-				}else {
-				System.out.print(i + " X *"  + " = " + (j*i) + "\t");
+				}else  {
+//				System.out.print(i + " X " + j + " = " + (j*i) + "\t");
+					System.out.print("\t\t");
 				}
 			}
 			System.out.println("");

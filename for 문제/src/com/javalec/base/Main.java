@@ -41,17 +41,21 @@ public class Main {
 	     double avg =0;
 	     int box = 0;
 	    //숫자 받기
+	     //시작숫자가 더크고 끝 숫자를 작게 시작할경
 	     //짝수인경우
 	     System.out.println("시작 숫자를 입력하세요.");
 	     num1 = scanner.nextInt();
 	     //홀수인 경우	     
 	     System.out.println("끝 숫자를 입력하세요.");
 	     num2 = scanner.nextInt();
+	     //@끝 숫자가 더 크고 시작 숫자가 더 작을경우 임의의 공간(박스를) 만들어 뒤숫자를 박스안에 넣고 
+	     //num1과 num2를 같게 만든다음 
 	     
 	     if(num1 > num2) {
 	    	 box = num1;
 	    	num1 = num2;		 
 	    	num2 = box;		 
+	     //
 	     }
 	     
 	     for(int i=num1; i<=num2; i++) {

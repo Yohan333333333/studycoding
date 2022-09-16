@@ -31,9 +31,9 @@ public class ififif {
 	//	    System.out.println("ID와PW를 확인하세요!");	   
 		}
 	    if(strID.equals("root")) {
-	    	System.out.println("!!!환영합니다.");
+	    	System.out.println("***환영합니다.");
 	    }else {
-	    	System.out.println("!!!PW를 확인하세요!");
+	    	System.out.println("***PW를 확인하세요!");
 	    }
 	    	
 	    

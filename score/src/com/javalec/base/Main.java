@@ -27,7 +27,7 @@ public class Main {
 		    
 		}
 		else if (score>=60) {
-			System.out.println("당신의 학점은   D입니다.");
+			System.out.println("당신의 학점은   D입니다.") ;
 			
 		}
 		else     {
